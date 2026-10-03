@@ -128,3 +128,6 @@ print()
 print("catalogue_pages:", page_num - 1)
 print("discovered:", len(book_urls))
 print("unique_urls:", len(unique_books))
+
+for book in book_urls:
+    print(book)
