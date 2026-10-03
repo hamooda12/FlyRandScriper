@@ -42,3 +42,10 @@ Validate
 Store
   ↓
 Report
+## Final Verification
+
+The scraper was tested with both normal and failure scenarios.
+
+The normal run successfully produced 60 valid book records.
+
+A failure test using an intentionally invalid book URL produced one failed page without stopping the rest of the pipeline.
